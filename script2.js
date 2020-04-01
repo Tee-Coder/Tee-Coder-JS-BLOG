@@ -7,9 +7,9 @@ class Article {
   }
   output (body, InsertValue)
   {
-    body.textContent += this.title;    // 
-    body.textContent += this.content;  // 
-    InsertValue.appendChild(body); // 
+    body.textContent += this.title;    
+    body.textContent += this.content;  
+    InsertValue.appendChild(body); 
   }
 }
 
