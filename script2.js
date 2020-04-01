@@ -7,8 +7,8 @@ class Article {
   }
   output (body, InsertValue)
   {
-    body.textContent += this.title;    // This send the title output to the browser
-    body.textContent += this.content;  // This send the content value to the browser
+    body.textContent += this.title;    // 
+    body.textContent += this.content;  // 
     InsertValue.appendChild(body); // 
   }
 }
